@@ -1,0 +1,15 @@
+root - INFO - Beginning main using the following arguments
+    data_path: data/bank_data.csv
+    catagorical_columns: ['Gender', 'Education_Level', 'Marital_Status', 'Income_Category', 'Card_Category']
+    dependent_input: Attrition_Flag
+    dependent_var: Churn
+root - INFO - Successfully loaded file: data/bank_data.csv
+root - INFO - Beggining exploratory data analysis.
+root - INFO - Beginning feature engineering.
+root - INFO - Starting gridsearch for random forest classifier.
+root - INFO - Training logistic regression classifier.
+root - INFO - Saving trained models to ./models
+root - INFO - Creating and saving ROC plot.
+root - INFO - Creating and saving classificaiton report images.
+root - INFO - Creating and saving feature importance plots.
+root - INFO - This program is complete - thank you
